@@ -12,7 +12,6 @@ public class LevelMove : MonoBehaviour
         if(other.tag == "Player") {
             LevelFinishedEffect.Play();
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-            Debug.Log("Hello there");
 
         }
     }
