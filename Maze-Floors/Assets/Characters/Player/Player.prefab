@@ -254,7 +254,7 @@ MonoBehaviour:
   moveSpeed: 500
   maxSpeed: 2.2
   idleFriction: 0.9
-  collisionOffset: 0.02
+  collisionOffset: 0.01
   movementFilter:
     useTriggers: 0
     useLayerMask: 0
