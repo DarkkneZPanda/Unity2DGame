@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Pitfall : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private DamageableCharacter Defeat;
+    private PlayerInput Lock;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Start() {
+        Defeat = GameObject.Find("Player").GetComponent<DamageableCharacter>();
+        Lock = GameObject.Find("Player").GetComponent<PlayerInput>();
+    }
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Player") {
+            Defeat.Health = 0;
+            Lock.LockMovement();
+        }
     }
 }

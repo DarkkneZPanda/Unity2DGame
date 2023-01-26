@@ -16098,7 +16098,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   heartsPrefab: {fileID: 3045531247977333692, guid: 1d0cd067735914341979558924148a54, type: 3}
-  Health: {fileID: 0}
+  Health: {fileID: 4100354176022298634}
 --- !u!114 &1483258837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23317,6 +23317,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3318000636452548983, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3588668100441969985, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+      propertyPath: MyMoneyScore
+      value: 
+      objectReference: {fileID: 1291167946}
     - target: {fileID: 3876129507525106434, guid: b8fb527e06d178041af42f7e73037060, type: 3}
       propertyPath: m_DefaultActionMap
       value: Player
@@ -23375,3 +23383,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+--- !u!114 &4100354176022298634 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9010172996372724106, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+  m_PrefabInstance: {fileID: 4100354176022298633}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782dedce92e9a6b4fbff66eeb3ead910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

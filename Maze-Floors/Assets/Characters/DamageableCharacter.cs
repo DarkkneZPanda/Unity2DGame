@@ -20,7 +20,7 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
             health = value;
 
             if(health <= 0) {
-                Deafeated();   
+                Defeated();   
             }
 
         }
@@ -52,7 +52,7 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         health = maxHealth;
     }
 
-    public void Deafeated() {
+    public void Defeated() {
         animator.SetTrigger("Defeated");
         DeathSoundEffect.Play();
 
