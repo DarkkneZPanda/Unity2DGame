@@ -8,6 +8,7 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
 
     [SerializeField] private AudioSource HitSoundEffect;
     [SerializeField] private AudioSource DeathSoundEffect;
+    public static event Action GameOver;
     public static event Action OnPLayerDamaged;
     public bool invincibilityEnabled = false;
     public float invincibilityTime = 0.25f;
@@ -20,7 +21,8 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
             health = value;
 
             if(health <= 0) {
-                Defeated();   
+                Defeated();
+                 
             }
 
         }
@@ -50,6 +52,10 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         health = maxHealth;
+    }
+
+    public void GameOverScreen() {
+        GameOver?.Invoke();
     }
 
     public void Defeated() {
