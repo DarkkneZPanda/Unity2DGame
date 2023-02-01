@@ -481,6 +481,7 @@ RectTransform:
   m_SizeDelta: {x: 1054.1987, y: 366.54486}
   m_Pivot: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &327725500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1567,8 @@ MonoBehaviour:
 >>>>>>> parent of 3906633 (Level 3 Design)
 =======
 >>>>>>> parent of 1e7cbd5 (Level 3 work)
+=======
+>>>>>>> parent of 3906633 (Level 3 Design)
 --- !u!1 &544009129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1945,7 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969891151}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Tiles:
   - first: {x: 30, y: -27, z: 0}
@@ -3892,10 +3896,17 @@ Tilemap:
 =======
   m_Tiles: {}
   m_AnimatedTiles: {}
+=======
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+>>>>>>> parent of 3906633 (Level 3 Design)
   m_TileAssetArray: []
   m_TileSpriteArray: []
   m_TileMatrixArray: []
   m_TileColorArray: []
+<<<<<<< HEAD
+>>>>>>> parent of 3906633 (Level 3 Design)
+=======
 >>>>>>> parent of 3906633 (Level 3 Design)
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4849,6 +4860,7 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1488639771
 GameObject:
   m_ObjectHideFlags: 0
@@ -5482,6 +5494,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of 3906633 (Level 3 Design)
+=======
+>>>>>>> parent of 3906633 (Level 3 Design)
 --- !u!1 &1836923748
 GameObject:
   m_ObjectHideFlags: 0
@@ -5779,6 +5793,7 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916926105}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_Tiles:
   - first: {x: 31, y: -26, z: 0}
@@ -13011,10 +13026,17 @@ Tilemap:
 =======
   m_Tiles: {}
   m_AnimatedTiles: {}
+=======
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+>>>>>>> parent of 3906633 (Level 3 Design)
   m_TileAssetArray: []
   m_TileSpriteArray: []
   m_TileMatrixArray: []
   m_TileColorArray: []
+<<<<<<< HEAD
+>>>>>>> parent of 3906633 (Level 3 Design)
+=======
 >>>>>>> parent of 3906633 (Level 3 Design)
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
