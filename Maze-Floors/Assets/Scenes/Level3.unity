@@ -486,11 +486,8 @@ RectTransform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
 --- !u!1 &327725500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,15 +1574,12 @@ MonoBehaviour:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 1e7cbd5 (Level 3 work)
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 3906633 (Level 3 Design)
 =======
 >>>>>>> parent of d1dadad (None)
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
 --- !u!1 &544009129
 GameObject:
   m_ObjectHideFlags: 0
@@ -1965,11 +1959,8 @@ Tilemap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
   m_Tiles:
   - first: {x: 30, y: -27, z: 0}
     second:
@@ -3920,10 +3911,17 @@ Tilemap:
 =======
   m_Tiles: {}
   m_AnimatedTiles: {}
+=======
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+>>>>>>> parent of 3906633 (Level 3 Design)
   m_TileAssetArray: []
   m_TileSpriteArray: []
   m_TileMatrixArray: []
   m_TileColorArray: []
+<<<<<<< HEAD
+>>>>>>> parent of 3906633 (Level 3 Design)
+=======
 >>>>>>> parent of 3906633 (Level 3 Design)
 =======
 >>>>>>> parent of 2313969 (None)
@@ -6080,11 +6078,8 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
 --- !u!1 &1488639771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6719,13 +6714,10 @@ Transform:
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 3906633 (Level 3 Design)
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 3906633 (Level 3 Design)
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
 --- !u!1 &1836923748
 GameObject:
   m_ObjectHideFlags: 0
@@ -7031,11 +7023,8 @@ Tilemap:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of 2313969 (None)
-=======
->>>>>>> parent of 2ae4443 (None)
   m_Tiles:
   - first: {x: 31, y: -26, z: 0}
     second:
@@ -14268,10 +14257,17 @@ Tilemap:
 =======
   m_Tiles: {}
   m_AnimatedTiles: {}
+=======
+  m_Tiles: {}
+  m_AnimatedTiles: {}
+>>>>>>> parent of 3906633 (Level 3 Design)
   m_TileAssetArray: []
   m_TileSpriteArray: []
   m_TileMatrixArray: []
   m_TileColorArray: []
+<<<<<<< HEAD
+>>>>>>> parent of 3906633 (Level 3 Design)
+=======
 >>>>>>> parent of 3906633 (Level 3 Design)
 =======
 >>>>>>> parent of 2313969 (None)
