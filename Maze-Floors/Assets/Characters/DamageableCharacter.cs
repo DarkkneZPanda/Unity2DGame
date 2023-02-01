@@ -54,6 +54,10 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         health = maxHealth;
     }
 
+    public void DisableEnemy() {
+        gameObject.SetActive(false);
+    }
+
     public void GameOverScreen() {
         GameOver?.Invoke();
     }
