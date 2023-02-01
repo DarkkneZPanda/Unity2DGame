@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Trap1
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
+  - {fileID: -1133299235, guid: d9c7cef624eebfd4f9e0c70e97c96339, type: 3}
+  - {fileID: -1133299235, guid: d9c7cef624eebfd4f9e0c70e97c96339, type: 3}
   - {fileID: 1598020545, guid: 5202b98e838552542b25e1b75e9358b2, type: 3}
   m_MinSpeed: 1
   m_MaxSpeed: 1
-  m_AnimationStartTime: 5
+  m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0
