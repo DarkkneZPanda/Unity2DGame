@@ -620,8 +620,8 @@ MonoBehaviour:
   invincibilityEnabled: 0
   invincibilityTime: 0.25
   invincible: 0
-  health: 12
-  maxHealth: 12
+  health: 16
+  maxHealth: 16
 --- !u!82 &5103304597298855468
 AudioSource:
   m_ObjectHideFlags: 0

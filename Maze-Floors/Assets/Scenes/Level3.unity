@@ -635,7 +635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &64111149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5444,7 +5444,7 @@ GameObject:
   - component: {fileID: 702468728}
   m_Layer: 0
   m_Name: ClosedDoor
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20628,11 +20628,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da46b61aeaf561d488d0009a83e32f62, type: 3}
---- !u!1 &1977230851 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7506270423373859861, guid: da46b61aeaf561d488d0009a83e32f62, type: 3}
+--- !u!114 &1977230854 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7398964578832311292, guid: da46b61aeaf561d488d0009a83e32f62, type: 3}
   m_PrefabInstance: {fileID: 1886264315}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782dedce92e9a6b4fbff66eeb3ead910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1994022173
 GameObject:
   m_ObjectHideFlags: 0
@@ -20672,7 +20678,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.34957647
+  MinDistance: 0.25498843
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -20802,6 +20808,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LevelFinishedEffect: {fileID: 1994022174}
-  BossEnemy: {fileID: 1977230851}
-  levelMove: {fileID: 1994022173}
+  EndGame: {fileID: 1977230854}
   sceneBuildIndex: 3
+  ClosedDoor: {fileID: 702468726}

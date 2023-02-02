@@ -6,19 +6,17 @@ using UnityEngine.SceneManagement;
 public class LevelConditions : MonoBehaviour
 {
     [SerializeField] private AudioSource LevelFinishedEffect;
-    public GameObject BossEnemy;
-
-    public GameObject levelMove;
+    public DamageableCharacter EndGame;
 
     public int sceneBuildIndex;
 
+    public GameObject ClosedDoor; 
+
     private void OnTriggerEnter2D(Collider2D other) {
-        if(BossEnemy.gameObject.activeSelf == false) {
-            levelMove.SetActive(true);
+        if(EndGame == null) {
             LevelFinishedEffect.Play();
             SceneManager.LoadScene(sceneBuildIndex, LoadSceneMode.Single);
-        } else {
-            levelMove.SetActive(false);
+            ClosedDoor.gameObject.SetActive(false);
         }
     }
 

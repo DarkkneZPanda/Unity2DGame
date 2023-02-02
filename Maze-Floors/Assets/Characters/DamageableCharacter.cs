@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class DamageableCharacter : MonoBehaviour, IDamageable
 {
@@ -52,10 +53,6 @@ public class DamageableCharacter : MonoBehaviour, IDamageable
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         health = maxHealth;
-    }
-
-    public void DisableEnemy() {
-        gameObject.SetActive(false);
     }
 
     public void GameOverScreen() {
