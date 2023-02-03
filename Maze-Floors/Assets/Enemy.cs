@@ -5,12 +5,12 @@ using UnityEngine.InputSystem;
 
 public class Enemy : MonoBehaviour
 {
-    // bool IsMoving {
-        // set {
-            // isMoving = value;
-            // animator.SetBool("isMoving", isMoving);
-        // }
-    // }
+    bool IsMoving {
+        set {
+            isMoving = value;
+            animator.SetBool("isMoving", isMoving);
+        }
+    }
 
     public float damage = 1f;
     public float moveSpeed = 500f;
@@ -19,19 +19,33 @@ public class Enemy : MonoBehaviour
     public DetectionZone detectionZone;
     Rigidbody2D rb;
     Animator animator;
+    SpriteRenderer spriteRenderer;
 
-    // bool isMoving = false;
+    bool isMoving = false;
+
+    bool canMove = true;
 
     void Start() {
-        rb = GetComponent<Rigidbody2D>();     
-    }
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }     
+    
     void FixedUpdate() {
-        if(detectionZone.detectedObjs.Count > 0) {
+        if(canMove == true && detectionZone.detectedObjs.Count > 0) {
             Vector2 direction = (detectionZone.detectedObjs[0].transform.position - transform.position).normalized;
-            rb.AddForce(direction * moveSpeed * Time.deltaTime); 
-            // IsMoving = true;
+            rb.AddForce(direction * moveSpeed * Time.deltaTime);
+
+            if (direction.x < 0){
+                spriteRenderer.flipX = true;
+            } else if (direction.x > 0){
+                spriteRenderer.flipX = false;
+            } 
+            
+            IsMoving = true;
+
         }else{
-            // IsMoving = false;
+            IsMoving = false;
         }
     }
 
@@ -50,6 +64,10 @@ public class Enemy : MonoBehaviour
            
         }
 
+    }
+
+    public void LockMovement() {
+        canMove = false;
     }
 
 }

@@ -20809,5 +20809,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelFinishedEffect: {fileID: 1994022174}
   EndGame: {fileID: 1977230854}
-  sceneBuildIndex: 3
+  sceneBuildIndex: 4
   ClosedDoor: {fileID: 702468726}
