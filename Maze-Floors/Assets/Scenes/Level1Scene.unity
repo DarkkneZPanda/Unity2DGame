@@ -22642,7 +22642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2124319948
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22905,7 +22905,12 @@ PrefabInstance:
       propertyPath: m_Vertices.Array.data[0].position.y
       value: 0.9985302
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 6224076575955510680, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+      propertyPath: PlayerWalk
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 776068538139289306, guid: b8fb527e06d178041af42f7e73037060, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b8fb527e06d178041af42f7e73037060, type: 3}
 --- !u!1001 &5974081166587777342
 PrefabInstance:
