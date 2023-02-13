@@ -16898,6 +16898,7 @@ GameObject:
   - component: {fileID: 983830018}
   - component: {fileID: 983830020}
   - component: {fileID: 983830019}
+  - component: {fileID: 983830021}
   m_Layer: 5
   m_Name: MoneyScore
   m_TagString: Untagged
@@ -17022,6 +17023,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983830017}
   m_CullTransparentMesh: 1
+--- !u!114 &983830021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983830017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daab988d645c45540a729a4b271618d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinCount: {fileID: 983830019}
 --- !u!1 &1005915923
 GameObject:
   m_ObjectHideFlags: 0
@@ -22809,7 +22823,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3588668100441969985, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
       propertyPath: MyMoneyScore
       value: 
       objectReference: {fileID: 983830019}
@@ -22909,8 +22927,7 @@ PrefabInstance:
       propertyPath: PlayerWalk
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 776068538139289306, guid: b8fb527e06d178041af42f7e73037060, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fb527e06d178041af42f7e73037060, type: 3}
 --- !u!1001 &5974081166587777342
 PrefabInstance:
