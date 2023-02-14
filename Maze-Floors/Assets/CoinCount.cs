@@ -9,11 +9,11 @@ public class CoinCount : MonoBehaviour
     int count;
 
     private void OnEnable() {
-        Coin.OnCoinCollected += IncrementCoinCount;
+        // Coin.OnCoinCollected += IncrementCoinCount;
     }
 
     private void OnDisable() {
-        Coin.OnCoinCollected -= IncrementCoinCount;
+       // Coin.CoinsCollected.(OnCoinsCollected) -= IncrementCoinCount;
     }
 
     public void IncrementCoinCount() {

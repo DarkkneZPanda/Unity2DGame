@@ -243,3 +243,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Coinpickup: {fileID: 4574958275248059328}
+  coinData: {fileID: 11400000, guid: 722dd7561257ce242b21000a42dbb2f8, type: 2}
