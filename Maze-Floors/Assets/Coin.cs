@@ -11,7 +11,7 @@ public class Coin : MonoBehaviour, ICollectible
     }
 
     private void OnDisable() {
-        // Coin.CoinsCollected.OnCoinCollected -= CoinSound;
+        // Coin.OnCoinCollected -= CoinSound;
     }
     public static event CoinsCollected OnCoinCollected;
     public delegate void CoinsCollected(ItemData itemData);

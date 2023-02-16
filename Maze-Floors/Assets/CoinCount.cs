@@ -13,7 +13,7 @@ public class CoinCount : MonoBehaviour
     }
 
     private void OnDisable() {
-       // Coin.CoinsCollected.(OnCoinsCollected) -= IncrementCoinCount;
+       // Coin.OnCoinCollected -= IncrementCoinCount;
     }
 
     public void IncrementCoinCount() {
