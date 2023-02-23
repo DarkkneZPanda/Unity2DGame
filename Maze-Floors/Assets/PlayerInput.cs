@@ -74,7 +74,7 @@ public class PlayerInput : MonoBehaviour
 
     void OnFire() {
         animator.SetTrigger("Attack");
-        SwordAttackEffect.Play();
+        
     }
 
     public void LockMovement() {
@@ -83,5 +83,9 @@ public class PlayerInput : MonoBehaviour
 
     public void UnlockMovement() {
         canMove = true;
+    }
+
+    public void SwordEffect() {
+        SwordAttackEffect.Play();
     }
 }
