@@ -154,7 +154,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 329558905474287883}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -181,5 +181,5 @@ MonoBehaviour:
   - Hey there. I am the ShopKeeper of this Tower.
   - Have a look around my shop and I hope to see you again.
   nextButton: {fileID: 0}
-  wordSpeed: 0
+  wordSpeed: 0.01
   playerIsNear: 0
