@@ -11490,6 +11490,10 @@ PrefabInstance:
       value: NPC
       objectReference: {fileID: 0}
     - target: {fileID: 4010364467460609777, guid: 9e19fa66f3ec5ed4298d8384f7906a4e, type: 3}
+      propertyPath: wordSpeed
+      value: 0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010364467460609777, guid: 9e19fa66f3ec5ed4298d8384f7906a4e, type: 3}
       propertyPath: nextButton
       value: 
       objectReference: {fileID: 1533826922}
