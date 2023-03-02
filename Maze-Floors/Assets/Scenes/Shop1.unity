@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 75113672}
   - component: {fileID: 75113671}
   m_Layer: 5
-  m_Name: Image
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8458,7 +8458,7 @@ GameObject:
   - component: {fileID: 1004028943}
   - component: {fileID: 1004028942}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ItemName
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10744,7 +10744,7 @@ GameObject:
   - component: {fileID: 1682519821}
   - component: {fileID: 1682519820}
   m_Layer: 5
-  m_Name: Image
+  m_Name: coin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10820,7 +10820,7 @@ GameObject:
   - component: {fileID: 1724594891}
   - component: {fileID: 1724594890}
   m_Layer: 5
-  m_Name: Image
+  m_Name: ItemImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11493,7 +11493,7 @@ GameObject:
   - component: {fileID: 2039865581}
   - component: {fileID: 2039865580}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: ShopPrice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12041,7 +12041,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2137167178}
   m_Layer: 5
-  m_Name: Container
+  m_Name: container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
