@@ -20,8 +20,8 @@ public class Items
     public static Sprite GetSprite(ItemType itemType) {
         switch (itemType) {
             default:
-            case ItemType.damageUp:     return ShopAssets.item.damageUp;
-            case ItemType.healthUp:     return ShopAssets.item.healthUp;
+            case ItemType.damageUp:     return ShopAssets.item.s_damageUp;
+            case ItemType.healthUp:     return ShopAssets.item.s_healthUp;
         }
     }
 }

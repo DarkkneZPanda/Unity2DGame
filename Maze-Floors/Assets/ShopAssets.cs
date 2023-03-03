@@ -8,11 +8,12 @@ public class ShopAssets : MonoBehaviour
 
     public static ShopAssets item {
         get {
-            if(items == null) items = (Instantiate(Resources.Load("ShopAssests")) as GameObject).GetComponent<ShopAssets>();
+            if(items == null) 
+                items = Instantiate(Resources.Load<ShopAssets>("ShopAssets"));
             return items;
         }
     }
 
-    public Sprite damageUp;
-    public Sprite healthUp;
+    public Sprite s_damageUp;
+    public Sprite s_healthUp;
 }

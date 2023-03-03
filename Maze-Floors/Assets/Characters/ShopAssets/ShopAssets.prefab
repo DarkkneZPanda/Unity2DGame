@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b274d0d7c5b6b344a2fbd263bdd5f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageUp: {fileID: -1100331539, guid: 2c9482015c876244d9df073cd9fb788c, type: 3}
-  healthUp: {fileID: -329088171, guid: 29de3e07120e0b84a8495f0dd5801fb2, type: 3}
+  s_damageUp: {fileID: -1100331539, guid: 2c9482015c876244d9df073cd9fb788c, type: 3}
+  s_healthUp: {fileID: -329088171, guid: 29de3e07120e0b84a8495f0dd5801fb2, type: 3}
