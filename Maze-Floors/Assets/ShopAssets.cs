@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ShopAssets : MonoBehaviour
 {
-    private static ShopAssets items;
+    private static ShopAssets _items;
 
     public static ShopAssets item {
         get {
-            if(items == null) 
-                items = Instantiate(Resources.Load<ShopAssets>("ShopAssets"));
-            return items;
+            if(_items == null) 
+                _items = Instantiate(Resources.Load<ShopAssets>("ShopAssets"));
+            return _items;
         }
     }
 
-    public Sprite s_damageUp;
-    public Sprite s_healthUp;
+    public Sprite damageUp;
+    public Sprite healthUp;
 }
