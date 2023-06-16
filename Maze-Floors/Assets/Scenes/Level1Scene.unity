@@ -22860,18 +22860,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2888045027416882668, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Icon
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2888045027416882668, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3876129507525106434, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_DefaultActionMap
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4100354176804062419, guid: b8fb527e06d178041af42f7e73037060, type: 3}
       propertyPath: m_Name
       value: Player
@@ -22919,50 +22907,6 @@ PrefabInstance:
     - target: {fileID: 4100354176804062421, guid: b8fb527e06d178041af42f7e73037060, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Vertices.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Triangles.Array.size
-      value: 36
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_LocalBounds.m_Center.y
-      value: -0.00000011920929
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_LocalBounds.m_Extent.x
-      value: 0.9985302
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_LocalBounds.m_Extent.y
-      value: 0.99853027
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Triangles.Array.data[0]
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Vertices.Array.data[0].color.g
-      value: 0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Vertices.Array.data[0].color.r
-      value: 0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Vertices.Array.data[0].position.x
-      value: 0.9985302
-      objectReference: {fileID: 0}
-    - target: {fileID: 5982816677202428096, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: m_Vertices.Array.data[0].position.y
-      value: 0.9985302
-      objectReference: {fileID: 0}
-    - target: {fileID: 6224076575955510680, guid: b8fb527e06d178041af42f7e73037060, type: 3}
-      propertyPath: PlayerWalk
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8fb527e06d178041af42f7e73037060, type: 3}
